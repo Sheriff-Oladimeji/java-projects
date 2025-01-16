@@ -13,7 +13,6 @@ public class GuessTheNumber {
 
             while (!isCorrect) {
                 System.out.println("Your score: " + score);
-                System.out.println(randomNumber);
                 System.out.println("Enter a number between 0 and 100");
                 int userNumber = myScanner.nextInt();
                 myScanner.nextLine();
