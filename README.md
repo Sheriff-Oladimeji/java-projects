@@ -1,25 +1,76 @@
-# Rock-Paper-Scissors Game - README Guide
+# Java Console Projects
 
-## **Project Overview**
-This is a simple Java-based console game where the user plays Rock-Paper-Scissors against the computer. The goal is to implement a working game that teaches you core Java concepts like conditionals, loops, random number generation, and user input handling.
-
----
-
-## **Game Rules**
-1. The player chooses either **Rock**, **Paper**, or **Scissors**.
-2. The computer randomly chooses one of the three options.
-3. The winner is decided based on the following rules:
-   - **Rock beats Scissors**
-   - **Scissors beats Paper**
-   - **Paper beats Rock**
-4. If both the player and computer choose the same option, the result is a **tie**.
+A collection of Java console applications designed to strengthen programming skills through real-world projects. Each project progressively introduces core Java concepts, from basic syntax to object-oriented programming and file handling.
 
 ---
 
-## **Features**
-1. **User Input**: The user will be prompted to enter their choice.
-2. **Random Choice for Computer**: The computer’s choice is generated randomly.
-3. **Result Display**: After each round, the game displays whether the user won, lost, or tied.
-4. **Replay Option**: The user can choose to play another round or exit the game.
+## **1. Rock-Paper-Scissors Game** (Beginner)
+
+A simple console-based Rock-Paper-Scissors game where the player competes against the computer.
+
+**Features:**
+- Randomized computer choices.
+- User input validation.
+- Basic game logic with conditional statements.
 
 ---
+
+## **2. Number Guessing Game** (Beginner)
+
+The program generates a random number, and the player has to guess it with hints like “higher” or “lower.”
+
+**Features:**
+- Random number generation.
+- Looping until the correct guess.
+- User input validation.
+- Replay option.
+
+---
+
+## **3. To-Do List Console App** (Intermediate)
+
+A simple command-line to-do list where users can add, remove, and view tasks.
+
+**Features:**
+- Dynamic list management using ArrayLists.
+- Basic CRUD (Create, Read, Update, Delete) functionality.
+- Persistent loop for task management.
+
+---
+
+## **4. Bank Account Management System** (Intermediate)
+
+A console-based system where users can create accounts, deposit, withdraw, and check their balance.
+
+**Features:**
+- Object-oriented design with classes and encapsulation.
+- Error handling for invalid transactions.
+- Secure data access through encapsulated fields.
+- Real-time balance updates.
+
+---
+
+## **5. Library Management System** (Advanced)
+
+A system to manage books in a library, allowing users to add books, borrow, return, and view available books.
+
+**Features:**
+- Advanced OOP concepts (inheritance, polymorphism, interfaces).
+- Efficient data management using HashMap or HashSet.
+- File I/O for data persistence.
+- Error handling for file operations and user inputs.
+
+---
+
+### **Project Overview**
+
+| **Project** | **Difficulty** | **Key Concepts** |
+| --- | --- | --- |
+| Rock-Paper-Scissors | Beginner | Basic syntax, control flow, random numbers, user input |
+| Number Guessing Game | Beginner | Loops, random numbers, input validation, replay feature |
+| To-Do List App | Intermediate | Arrays/ArrayLists, methods, loops, basic CRUD operations |
+| Bank Account System | Intermediate | OOP (classes, encapsulation), constructors, exception handling |
+| Library Management System | Advanced | OOP (inheritance, polymorphism), interfaces, data structures, file I/O |
+
+Feel free to explore the code, improve the logic, or extend the features of these projects!
+
